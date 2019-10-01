@@ -1,22 +1,56 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
+  background-image: url(https://i.pinimg.com/736x/3a/9f/28/3a9f289d6f1369dba68bab3951de062b.jpg);
+  background-size: 100%;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color:#182126;
+  padding-top: 1vh;
+  min-height: 10vh;
+}
+.navRouter{
+  list-style-type: none;
+  text-decoration: none;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  font-family: 'Dosis', sans-serif;
+  font-size: calc(20px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #09d3ac;
+.navRouter :hover{
+  color:red;
+  padding-top: 5vh;
+  height: 10vh;
+}
+.title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size: calc(20px + 1vmin);
+  text-emphasis-color: white;
+  color: #182126;
+  background-color: white;
+  opacity: 0.7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  position: relative;
+  top: 100px;
+}
+.title >h1,h3{
+  position: relative;
+  left: 60px;
+}
+.meImage{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.meImage > img{
+  width: 20%;
+  position: relative;
+  top: -200px;
+  right: 60px;
 }
