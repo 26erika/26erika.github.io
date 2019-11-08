@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.08dbce22.chunk.css",
-    "main.js": "/static/js/main.3b08a7fc.chunk.js",
-    "main.js.map": "/static/js/main.3b08a7fc.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.98592f35.js",
-    "runtime-main.js.map": "/static/js/runtime-main.98592f35.js.map",
-    "static/js/2.438da7fd.chunk.js": "/static/js/2.438da7fd.chunk.js",
-    "static/js/2.438da7fd.chunk.js.map": "/static/js/2.438da7fd.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.53d6819a685c6dee8e020a8b7ad7c5f2.js": "/precache-manifest.53d6819a685c6dee8e020a8b7ad7c5f2.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.08dbce22.chunk.css.map": "/static/css/main.08dbce22.chunk.css.map",
-    "static/media/80sTV.png": "/static/media/80sTV.5361f099.png",
-    "static/media/App.css": "/static/media/ticket.b17cb439.png",
-    "static/media/polaroid+me.png": "/static/media/polaroid+me.560a17a2.png"
+    "main.css": "/portfolio/static/css/main.34291a33.chunk.css",
+    "main.js": "/portfolio/static/js/main.fa24d5b5.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.fa24d5b5.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.f69b92b3.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f69b92b3.js.map",
+    "static/js/2.438da7fd.chunk.js": "/portfolio/static/js/2.438da7fd.chunk.js",
+    "static/js/2.438da7fd.chunk.js.map": "/portfolio/static/js/2.438da7fd.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.c6aa66fa92aa1ce7cad6a49e1b2bb9e8.js": "/portfolio/precache-manifest.c6aa66fa92aa1ce7cad6a49e1b2bb9e8.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.34291a33.chunk.css.map": "/portfolio/static/css/main.34291a33.chunk.css.map",
+    "static/media/80sTV.png": "/portfolio/static/media/80sTV.5361f099.png",
+    "static/media/App.css": "/portfolio/static/media/ticket.b17cb439.png",
+    "static/media/polaroid+me.png": "/portfolio/static/media/polaroid+me.560a17a2.png"
   }
 }
