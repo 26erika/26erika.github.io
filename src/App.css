@@ -1,136 +1,183 @@
-body {
-  text-align: center;
-  /*background-color: #f6e9e1;*/
-  background-image: url(https://i.ibb.co/GCyRrfq/flower-color.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
+
+*{
+  box-sizing: border-box;
 }
-.App{
-  background-color:#1a0c1b;
-  padding-top: 0.5rem;
+body{
+  background-image: url(./images/ovni.jpg);
+  overflow: hidden;
+  width: 100%;
+  /*background-color: #e2eeff;*/
 }
+
 .App-header {
-  text-decoration: none;
+  background-color: #732c53;
+  padding-top: 1%;
+  margin-top: -2%;
 }
 .navRouter{
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-around;
-  list-style-type: none;
-  text-decoration: none;
+  list-style: none;
   font-family: 'Special Elite', cursive;
-  font-size: calc(1.5rem + 2vmin);
-  color: white;
-  opacity: 0.7;
+  font-size: 1.5rem;
 }
 .navRouter :hover{
-  color:white;
+  color: #1a0c1b;
 }
-.title-home{
-  background-image: url(https://wallpaperstock.net/wallpapers/thumbs1/34751wide.jpg);
-  color: #d18c03;
-  padding: .5rem;
-  font-weight: lighter;
-  font-size: calc(1rem + 1vmin);
-  text-emphasis-color: white;
-  opacity: 0.8;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+li a {
+  color: #fff;
+  text-decoration: none;
+}
+.content ::after{
+  clear: both;
+  display: table;
+  margin-bottom: 10rem;
+  padding: 1rem;
   text-align: left;
-  position: relative;
-  top: 7rem;
+  width: 100%;
 }
-.title-skills{
-  background-image: url(https://wallpaperstock.net/wallpapers/thumbs1/34751wide.jpg);
-  font-family: 'Special Elite', cursive;
-  color: #d18c03;
-  padding: .5rem;
+.header{
+  padding-left: 2rem;
+  padding-bottom: 0;
+  text-align: center;
+}
+.about{
+  background-color: black;
+  float: right;
+  width: 50%;
+  padding: 2rem;
+  height: 30%;
+  margin-top: -4%;
+  margin-bottom: 10%;
+}
+ .description{
+  text-align: justify;
 }
 .title-name{
-  font-family: 'Special Elite', cursive;
-  color: #d18c03;
+  font-family: 'Merriweather', serif;
+  color: #1a0c1b;
+  background-color: #fff;
+  font-size: calc(4rem);
+  margin-bottom: 1rem;
 }
 .title-ocupation{
-  font-family: 'Roboto', sans-serif;
-  color:#213b3b;
-}
-.title-home >h1,h3{
-  position: relative;
-  left: 15rem;
+  font-family: 'Merriweather', serif;
+  color: #732c53;
+  background-color: #fff;
+  font-size: 2rem;
+  margin-bottom: 1%;
+  margin-top: 1%;
 }
 .meImage{
-  display: flex;
-  flex-direction: row-reverse;
+  display: block;
+  height: auto;
+  max-width: 70%;
+  width: auto;
+  margin-top: -6%;
 }
-.meImage > img{
-  width: 15rem;
-  position: relative;
-  top: -8rem;
-  right: 5rem;
+.meImage{
+  float: left;
+  margin-left: 5rem !important;
+}
+.description{
+  color: #fff;
+  font-family: 'Special Elite', cursive;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  margin-bottom: 1rem;
+  padding: 2%;
+  margin-top: 5%;
 }
 .media{
   display: flex;
   justify-content: space-around;
-  margin-top: -5rem;
-}
-.icon{
-  width: 5rem;
-}
-.skills-list{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.text {
-  text-align: center;
-  background-color: #1a0c1b;
-  width: calc((70rem)/ 10);
-  height: 3rem;
-  color: white;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #f3f0ed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: -1rem;
-  margin-bottom: 1rem;
   font-family: 'Roboto', sans-serif;
 }
-.text-none {
-  display: none;
+.media a{
+  text-decoration: none;
+  color: #1a0c1b;
+  font-size: 2rem;
 }
-.skills-list {
-  width: 30rem;
-  margin-top: 2rem;
-}
-.title-about{
-  background-image: url(https://wallpaperstock.net/wallpapers/thumbs1/34751wide.jpg);
-  font-family: 'Special Elite', cursive;
-  color: #d18c03;
-  padding: .5rem;
-}
-.about-title{
-  font-family: 'Special Elite', cursive;
-  color: #d18c03;
-  font-size: calc(3rem + 1vmin);
-}
-.about-description{
-  font-family: 'Roboto', sans-serif;
-  color:#213b3b;
-  font-size: calc(2rem + 1vmin);
-
+.material-icons{
+  color: #e2eeff;
+  font-size: 2rem;
+  text-decoration: none;
 }
 .title-projects{
-  background-image: url(https://wallpaperstock.net/wallpapers/thumbs1/34751wide.jpg);
   font-family: 'Special Elite', cursive;
-  color: #d18c03;
-  padding: .5rem;
+  color: #1a0c1b;
+  background-color: #fff;
+  text-align: center;
+  font-size: 2rem;
 }
-.projects-title{
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.button-icon{
+  display: flex;
+  left: 3rem;
+}
+.line{
+  color: #e2eeff;
   font-family: 'Special Elite', cursive;
-  color: #d18c03;
-  font-size: calc(3rem + 1vmin);
+  position: relative;
+  top: 50%;
+  width: 40em;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 3em;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+/*Animation*/
+.function{
+  animation: typewriter 4s steps(40) 1s 1 normal both,
+  blinkTextCursor 500ms steps(40) infinite normal;
+}
+@keyframes typewriter {
+  from{
+    width: 0;
+  }
+  to {
+    width: 23em;
+  }
+}
+@keyframes blinkTextCursor{
+  from{
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to{
+    border-right-color: transparent;
+  }
+}
+
+.img-project{
+  width: 30%;
+}
+.demo-projects{
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-project{
+  display: inline-block;
+  height: 60%;
+  width: 30%;
+  text-align: center;
+  font-size: larger;
+  font-family: 'Special Elite', cursive;
+  color: #e2eeff;
+  background-image: url(./images/ticket.png);
+  background-repeat: no-repeat;
+}
+.demo-title{
+  justify-content: space-between;
 }

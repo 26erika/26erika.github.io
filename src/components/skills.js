@@ -112,7 +112,7 @@ class Skills extends Component{
             </div>
             <div class="text">
               <p>
-                Confiable
+                Confiabilidad
               </p>
             </div>
             <div class="text">
