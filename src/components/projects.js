@@ -15,9 +15,9 @@ class Projects extends Component{
                 </h2>
               </section>
               <div className="demo-projects">
-                <img className="img-project" src={TV}></img>
-                <img className="img-project" src={TV}></img>
-                <img className="img-project" src={TV}></img>
+                <img className="img-project" src={TV} alt="tv"></img>
+                <img className="img-project" src={TV} alt="tv"></img>
+                <img className="img-project" src={TV} alt="tv"></img>
               </div>
               <div demo-title>
                 <p className="title-project">Churrolatte</p>

@@ -10,7 +10,7 @@ class About extends Component {
           <h3 className="title-ocupation">Front-end Developer</h3>
         </div>
         <div className="about">
-          <h4 className="description"><img className="meImage" src={photo}/></h4>
+          <h4 className="description"><img className="meImage" src={photo} alt="me"/></h4>
         </div>
         <div className="about">
           <h4 className="description">I combine my talents as a self-taught artist with my knowledge in developer to create interactive web apps.</h4>

@@ -14,14 +14,14 @@ function App() {
               <ul className= 'navRouter'>
                   <li><NavLink to = '/' >Projects</NavLink></li>
                   <li><NavLink to = '/about' >About me</NavLink></li>
-                  <li><NavLink to = '/contact' ><div className="media">
-          <a href="https://mx.linkedin.com/in/erika-sanchez-murguia"
+                  <li className="media">
+            <a href="https://mx.linkedin.com/in/erika-sanchez-murguia"
             target="_blank"><i class="material-icons">public</i></a>
             <a href="https://github.com/26erika"
             target="_blank"><i class="material-icons">device_hub</i></a>
             <a href="mailto:develop.erika@gmail.com"
             target="_blank"><i class="material-icons">mail_outline</i></a>
-          </div></NavLink></li>
+                  </li>
               </ul>
             </div>
       </header>
