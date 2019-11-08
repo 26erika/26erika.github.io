@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
+import { BrowserRouter as HashRouter, Route, NavLink } from "react-router-dom";
 import './App.css';
 import About from './components/about';
 import Projects from './components/projects';
@@ -8,7 +8,7 @@ import Skills from './components/skills';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <HashRouter>
       <header className="App-header">
       <div>
               <ul className= 'navRouter'>
@@ -30,7 +30,7 @@ function App() {
           <Route exact path='/about' component={About}/>
           <Route exact path='/contact' component={Skills}/>
       </body>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
