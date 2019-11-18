@@ -30,7 +30,7 @@ class Projects extends Component {
           <img className="img-project churrolatte" src={TV} alt="tv"></img>
           <div className='demo-title'>
             <a href="https://26erika.github.io/churrolatte/">
-              <p className="title-project">Churro latte</p>
+              <p className="title-project">Churrolatte</p>
             </a>
           </div>
         </div>

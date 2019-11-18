@@ -105,13 +105,6 @@ li a {
   font-size: 2rem;
   text-decoration: none;
 }
-.title-projects{
-  font-family: 'Special Elite', cursive;
-  color: #1a0c1b;
-  background-color: #fff;
-  text-align: center;
-  font-size: 2rem;
-}
 .container {
   width: 70rem;
   margin: 0 auto;
@@ -161,7 +154,7 @@ li a {
 }
 
 .img-project{
-  width: 80%;
+  width: 30%;
 }
 .churrolatte{
   background-image: url(./images/churrolatte-1.gif);
@@ -176,42 +169,44 @@ li a {
   cursor: pointer;
 }
 .md-links{
-  background-image: url(./images/my-notes-1.jpg);
+  background-image: url(./images/polaroid+me.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   cursor: pointer;
 }
+.title-projects{
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: 'Special Elite', cursive;
+  color: #1a0c1b;
+  background-color: #fff;
+  margin-left: 3%;
+}
 .demo-projects{
   width: 100%;
   margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-left: 3%;
-  grid-gap: -10%;
-  grid-auto-rows: minmax(100%, auto);
+  display: flex;
+  justify-content: center;
 }
 .demo-title{
   background-image: url(./images/ticket.png);
-  height: 100%;
-  width: 30%;
+  height: auto;
+  width: 50%;
   margin-bottom: 5%;
   background-repeat: no-repeat;
   background-size: 100% ;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20%;
-  grid-auto-rows: minmax(20%, auto);
-}
-.title-project{
-  text-align: center;
-  align-items: center;
+  display: inline-block;
   font-size: 1rem;
   font-family: 'Special Elite', cursive;
-  color: #1a0c1b;
-  margin-left: 50%;
 }
+
 .demo-title{
   justify-content: space-between;
+}
+.title-project{
+  margin-left: 10%;
+  color: #1a0c1b;
 }
 
 @media screen and (max-width:670px){
@@ -306,7 +301,7 @@ li a {
     text-align: center;
     white-space: normal;
     overflow: hidden;
-    transform: translateY(-50%);
+    transform: translateY(-10%);
   }
   /*Animation*/
   .function{
@@ -329,6 +324,14 @@ li a {
       border-right-color: transparent;
     }
   }
+  .title-projects{
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Special Elite', cursive;
+    color: #1a0c1b;
+  }
   .img-project{
     width: 100%;
   }
@@ -336,7 +339,7 @@ li a {
     background-image: url(./images/churrolatte-1.gif);
     background-size: 100%;
     background-repeat: no-repeat;
-    cursor: pointer;;
+    cursor: pointer;
   }
   .my-notes{
     background-image: url(./images/my-notes-2.gif);
@@ -345,7 +348,7 @@ li a {
     cursor: pointer;
   }
   .md-links{
-    background-image: url(./images/my-notes-1.jpg);
+    background-image: url(./images/polaroid+me.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -356,25 +359,22 @@ li a {
     text-align: center;
     margin-bottom: 5%;
   }
-  
-  .title-project{
-    position: relative;
-    display: block;
-    text-align: justify;
-    font-size: 1rem;
-    font-family: 'Special Elite', cursive;
-    color: #1a0c1b;
-    margin-left: 10%;
-    
-  }
   .demo-title {
     display: inline-block;
     justify-content: space-between;
     background-image: url(./images/ticket.png);
     background-repeat: no-repeat;
     height: 10%;
-    width: 40%;
+    width: 50%;
     margin-bottom: 2%;
+    font-size: 1rem;
+    font-family: 'Special Elite', cursive;
+    text-decoration: none;
+    color: #1a0c1b;
+  }
+  .title-project{
+    margin-left: 1%;
+    color: #1a0c1b;
   }
   
 }
