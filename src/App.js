@@ -8,7 +8,7 @@ import Modal from './components/modal';
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+      <HashRouter basename='/portfolio'>
       <header className="App-header">
       <div>
               <ul className= 'navRouter'>
