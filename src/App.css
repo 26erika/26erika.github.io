@@ -113,7 +113,7 @@ li a {
   font-size: 2rem;
 }
 .container {
-  max-width: 80rem;
+  width: 70rem;
   margin: 0 auto;
   background-color: black;
 }
@@ -132,7 +132,7 @@ li a {
   margin-top: 6%;
   margin-bottom: 2%;
   border-right: 2px solid rgba(255, 255, 255, 0.75);
-  font-size: 3em;
+  font-size: 3rem;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
@@ -161,24 +161,220 @@ li a {
 }
 
 .img-project{
-  width: 30%;
+  width: 80%;
+}
+.churrolatte{
+  background-image: url(./images/churrolatte-1.gif);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.my-notes{
+  background-image: url(./images/my-notes-2.gif);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.md-links{
+  background-image: url(./images/my-notes-1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
 .demo-projects{
-  display: flex;
-  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 3%;
+  grid-gap: -10%;
+  grid-auto-rows: minmax(100%, auto);
 }
-
-.title-project{
-  display: inline-block;
-  height: 60%;
-  width: 30%;
-  text-align: center;
-  font-size: larger;
-  font-family: 'Special Elite', cursive;
-  color: #e2eeff;
+.demo-title{
   background-image: url(./images/ticket.png);
+  height: 100%;
+  width: 30%;
+  margin-bottom: 5%;
   background-repeat: no-repeat;
+  background-size: 100% ;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20%;
+  grid-auto-rows: minmax(20%, auto);
+}
+.title-project{
+  text-align: center;
+  align-items: center;
+  font-size: 1rem;
+  font-family: 'Special Elite', cursive;
+  color: #1a0c1b;
+  margin-left: 50%;
 }
 .demo-title{
   justify-content: space-between;
+}
+
+@media screen and (max-width:670px){
+  .navRouter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Special Elite', cursive;
+    font-size: 1.2rem;
+  }
+  .content{
+    clear: both;
+    display: table;
+    margin-bottom: 10rem;
+    padding: 1rem;
+    text-align: left;
+    width: 100%;
+  }
+  .header{
+    padding-left: 0;
+    padding-bottom: 0;
+    text-align: center;
+  }
+   .description{
+    text-align: justify;
+  }
+  .title-name{
+    font-family: 'Merriweather', serif;
+    color: #1a0c1b;
+    background-color: #fff;
+    font-size: calc(2rem);
+    margin-bottom: 1rem;
+    margin-top: -5%;
+  }
+  .title-ocupation{
+    font-family: 'Merriweather', serif;
+    color: #732c53;
+    background-color: #fff;
+    font-size: 1rem;
+    margin-bottom: 1%;
+    margin-top: 1%;
+  }
+  .about{
+    background-color: black;
+    width: 100%;
+    padding: 2rem;
+    height: 30%;
+    margin-top: -1%;
+    margin-bottom: 1%;
+  }
+  .meImage{
+    display:flex;
+    width: 100%;
+    margin-top: 1%;
+    margin-left: 3rem !important;
+  }
+
+  .description{
+    color: #fff;
+    font-family: 'Special Elite', cursive;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+    padding: 2%;
+    margin-top: -5%;
+  }
+  .title-projects{
+    font-family: 'Special Elite', cursive;
+    color: #1a0c1b;
+    background-color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0%;
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: black;
+  }
+  .line{
+    color: #e2eeff;
+    font-family: 'Special Elite', cursive;
+    position: relative;
+    top: 10%;
+    width: 40em;
+    margin: 0 auto;
+    margin-top: 6%;
+    margin-bottom: 2%;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    font-size: 0.9rem;
+    text-align: center;
+    white-space: normal;
+    overflow: hidden;
+    transform: translateY(-50%);
+  }
+  /*Animation*/
+  .function{
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+  }
+  @keyframes typewriter {
+    from{
+      width: 0;
+    }
+    to {
+      width: 23em;
+    }
+  }
+  @keyframes blinkTextCursor{
+    from{
+      border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to{
+      border-right-color: transparent;
+    }
+  }
+  .img-project{
+    width: 100%;
+  }
+  .churrolatte{
+    background-image: url(./images/churrolatte-1.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;;
+  }
+  .my-notes{
+    background-image: url(./images/my-notes-2.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  .md-links{
+    background-image: url(./images/my-notes-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  .demo-projects{
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  
+  .title-project{
+    position: relative;
+    display: block;
+    text-align: justify;
+    font-size: 1rem;
+    font-family: 'Special Elite', cursive;
+    color: #1a0c1b;
+    margin-left: 10%;
+    
+  }
+  .demo-title {
+    display: inline-block;
+    justify-content: space-between;
+    background-image: url(./images/ticket.png);
+    background-repeat: no-repeat;
+    height: 10%;
+    width: 40%;
+    margin-bottom: 2%;
+  }
+  
 }
