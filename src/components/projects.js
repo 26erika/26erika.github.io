@@ -15,23 +15,26 @@ class Projects extends Component {
           </h2>
         </section>
         <div className="demo-projects">
-          <img className="img-project my-notes" src={TV} alt="tv" onClick={Modal}></img>
           <div className='demo-title'>
+          <img className="img-project my-notes" src={TV} alt="tv" onClick={Modal}></img>
             <a href="https://26erika.github.io/my-notes/">
               <p className="title-project">My Notes</p>
             </a>
+            <p className="title-description">Notes Application created with React</p>
           </div>
+          <div className='demo-title'>
           <img className="img-project md-links" src={TV} alt="tv"></img>
-          <div className='demo-title'>
             <a href="https://26erika.github.io">
-              <p className="title-project">Md Links</p>
+              <p className="title-project">Brave Man</p>
             </a>
+            <p className="title-description">Platform videogame created in Unity with C#</p>
           </div>
-          <img className="img-project churrolatte" src={TV} alt="tv"></img>
           <div className='demo-title'>
+          <img className="img-project churrolatte" src={TV} alt="tv"></img>
             <a href="https://26erika.github.io/churrolatte/">
               <p className="title-project">Churrolatte</p>
             </a>
+            <p className="title-description">Restaurant order system created with React and Mongo Db</p>
           </div>
         </div>
         

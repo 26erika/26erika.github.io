@@ -3,9 +3,9 @@
   box-sizing: border-box;
 }
 body{
-  background-image: url(./images/ovni.jpg);
+  background-image: url(./images/space.jpg);
   overflow: hidden;
-  overflow-y: scroll;
+  overflow-y: auto;
   width: 100%;
   /*background-color: #e2eeff;*/
 }
@@ -44,12 +44,12 @@ li a {
   text-align: center;
 }
 .about{
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.6);
   float: right;
   width: 50%;
   padding: 2rem;
   height: 30%;
-  margin-top: -4%;
+  margin-top: -1%;
   margin-bottom: 10%;
 }
  .description{
@@ -87,7 +87,7 @@ li a {
   font-size: 1.2rem;
   font-weight: lighter;
   margin-bottom: 1rem;
-  padding: 2%;
+  padding: 1%;
   margin-top: 5%;
 }
 .media{
@@ -108,7 +108,7 @@ li a {
 .container {
   width: 70rem;
   margin: 0 auto;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .button-icon{
@@ -154,7 +154,7 @@ li a {
 }
 
 .img-project{
-  width: 30%;
+  width: 90%;
 }
 .churrolatte{
   background-image: url(./images/churrolatte-1.gif);
@@ -190,24 +190,30 @@ li a {
   justify-content: center;
 }
 .demo-title{
-  background-image: url(./images/ticket.png);
-  height: auto;
   width: 50%;
   margin-bottom: 5%;
   background-repeat: no-repeat;
   background-size: 100% ;
   display: inline-block;
-  font-size: 1rem;
   font-family: 'Special Elite', cursive;
 }
 
 .demo-title{
+  text-align: center;
   justify-content: space-between;
 }
 .title-project{
+  font-size: 1.5rem;
   margin-left: 10%;
-  color: #1a0c1b;
+  color: #fff;
 }
+.title-description{
+  font-size: 1rem;
+  color: #fff;
+}
+/*a{
+  text-decoration: #fff;
+}*/
 
 @media screen and (max-width:670px){
   .navRouter{
@@ -251,7 +257,7 @@ li a {
     margin-top: 1%;
   }
   .about{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
     padding: 2rem;
     height: 30%;
@@ -285,7 +291,7 @@ li a {
   .container {
     width: 90%;
     margin: 0 auto;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.6);
   }
   .line{
     color: #e2eeff;
@@ -353,28 +359,41 @@ li a {
     background-repeat: no-repeat;
     cursor: pointer;
   }
-  .demo-projects{
-    display: inline-block;
-    justify-content: space-between;
+  .title-projects{
     text-align: center;
-    margin-bottom: 5%;
+    font-family: 'Special Elite', cursive;
+    color: #1a0c1b;
+    background-color: #fff;
+    margin-left: 3%;
+  }
+  .demo-projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
   }
   .demo-title {
-    display: inline-block;
-    justify-content: space-between;
-    background-image: url(./images/ticket.png);
-    background-repeat: no-repeat;
-    height: 10%;
     width: 50%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     font-size: 1rem;
     font-family: 'Special Elite', cursive;
-    text-decoration: none;
-    color: #1a0c1b;
+  }
+  .demo-title{
+    text-align: center;
+    justify-content: space-between;
   }
   .title-project{
     margin-left: 1%;
-    color: #1a0c1b;
+    color: #fff;
+  }
+  .title-description{
+    font-size: 1rem;
+    color: #fff;
+  }
+  a{
+    text-decoration: #fff;
   }
   
 }

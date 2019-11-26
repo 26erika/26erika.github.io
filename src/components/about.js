@@ -16,7 +16,7 @@ class About extends Component {
           <h4 className="description">I combine my talents as a self-taught artist with my knowledge in developer to create interactive web apps.</h4>
           <h4 className="description">I live in Jalisco, I studied interior design and a frontend developer bootcamp. I love the technologie and the things that made with it.</h4>
           <h4 className="description">I have experience working with JavaScript, HTML5, CSS3, React.js, Firebase, Node.js. and Unity with C#</h4>
-          <h4 className="description">When I didn't work, i like study, draw and i fan of riddles.</h4>
+          <h4 className="description">When I didn't work, I'm a very curious person and I love to learn something new all the time, draw and i fan of riddles.</h4>
         </div>
         
       </div>
