@@ -4,6 +4,9 @@ import './App.css';
 import About from './components/about';
 import Projects from './components/projects';
 import Modal from './components/modal';
+import GitHub from "./images/github.png";
+import Linkedin from "./images/linkedin.png"
+import Mail from "./images/mail.png"
 
 function App() {
   return (
@@ -16,11 +19,11 @@ function App() {
                   <li><NavLink to = '/about' >About me</NavLink></li>
                   <li className="media">
             <a href="https://mx.linkedin.com/in/erika-sanchez-murguia"
-            target="_blank" rel="noopener noreferrer" ><i class="material-icons">public</i></a>
+            target="_blank" rel="noopener noreferrer" ><img className="icon" src={Linkedin}></img></a>
             <a href="https://github.com/26erika"
-            target="_blank" rel="noopener noreferrer" ><i class="material-icons">device_hub</i></a>
+            target="_blank" rel="noopener noreferrer" ><img className="icon" src={GitHub}></img></a>
             <a href="mailto:develop.erika@gmail.com"
-            target="_blank" rel="noopener noreferrer" ><i class="material-icons">mail_outline</i></a>
+            target="_blank" rel="noopener noreferrer" ><img className="icon" src={Mail}></img></a>
                   </li>
               </ul>
             </div>

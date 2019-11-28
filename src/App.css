@@ -90,12 +90,16 @@ li a {
   padding: 1%;
   margin-top: 5%;
 }
+.icon{
+  width: 30%;
+}
 .media{
+  width: 30%;
   display: flex;
-  justify-content: space-around;
   font-family: 'Roboto', sans-serif;
 }
 .media a{
+  width: 50%;
   text-decoration: none;
   color: #1a0c1b;
   font-size: 2rem;
@@ -156,6 +160,9 @@ li a {
 .img-project{
   width: 90%;
 }
+.img-project:hover{
+  transform: scale(1.2);
+}
 .churrolatte{
   background-image: url(./images/churrolatte-1.gif);
   background-size: 100%;
@@ -169,7 +176,7 @@ li a {
   cursor: pointer;
 }
 .md-links{
-  background-image: url(./images/polaroid+me.jpg);
+  background-image: url(./images/md-links1.gif);
   background-size: 100%;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -202,9 +209,12 @@ li a {
   text-align: center;
   justify-content: space-between;
 }
+.planet{
+  width: 10%;
+}
 .title-project{
   font-size: 1.5rem;
-  margin-left: 10%;
+  margin-left: 5%;
   color: #fff;
 }
 .title-description{
@@ -223,6 +233,9 @@ li a {
     list-style: none;
     font-family: 'Special Elite', cursive;
     font-size: 1.2rem;
+  }
+  .icon{
+    width: 60%;
   }
   .content{
     clear: both;
@@ -341,6 +354,7 @@ li a {
   .img-project{
     width: 100%;
   }
+
   .churrolatte{
     background-image: url(./images/churrolatte-1.gif);
     background-size: 100%;
@@ -354,7 +368,7 @@ li a {
     cursor: pointer;
   }
   .md-links{
-    background-image: url(./images/polaroid+me.jpg);
+    background-image: url(./images/md-links1.gif);
     background-size: 100%;
     background-repeat: no-repeat;
     cursor: pointer;
