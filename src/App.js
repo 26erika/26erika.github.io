@@ -19,11 +19,11 @@ function App() {
                   <li><NavLink to = '/about' >About me</NavLink></li>
                   <li className="media">
             <a href="https://mx.linkedin.com/in/erika-sanchez-murguia"
-            target="_blank" rel="noopener noreferrer" ><img className="icon" src={Linkedin}></img></a>
+            target="_blank" rel="noopener noreferrer" ><img className="icon" alt="linkedin" src={Linkedin}></img></a>
             <a href="https://github.com/26erika"
-            target="_blank" rel="noopener noreferrer" ><img className="icon" src={GitHub}></img></a>
+            target="_blank" rel="noopener noreferrer" ><img className="icon" alt="github" src={GitHub}></img></a>
             <a href="mailto:develop.erika@gmail.com"
-            target="_blank" rel="noopener noreferrer" ><img className="icon" src={Mail}></img></a>
+            target="_blank" rel="noopener noreferrer" ><img className="icon" alt="email" src={Mail}></img></a>
                   </li>
               </ul>
             </div>

@@ -161,7 +161,7 @@ li a {
   width: 90%;
 }
 .img-project:hover{
-  transform: scale(1.2);
+  transform: scale(2);
 }
 .churrolatte{
   background-image: url(./images/churrolatte-1.gif);
