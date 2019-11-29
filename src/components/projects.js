@@ -27,7 +27,7 @@ class Projects extends Component {
           </div>
           <div className='demo-title'>
           <img className="img-project md-links" src={TV} alt="tv"></img>
-            <a href="https://26erika.github.io">
+            <a href="https://github.com/26erika/GDL003-md-links">
               <p className="title-project"><img className="planet" alt="planet" src={Planet}></img>Md Links</p>
             </a>
             <p className="title-description">Library developed with Node.Js to analyze Markdown files and be able to show a statistical count of the status and total links.</p>
